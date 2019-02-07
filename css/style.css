@@ -116,7 +116,7 @@ fieldset {
 	}	
 	
 	#contact button[type="submit"] {
-		padding: 50px;
+		padding: 30px;
 	}
 }
 
@@ -136,6 +136,6 @@ fieldset {
 	}	
 	
 	#contact button[type="submit"] {
-		padding: 60px;
+		padding: 40px;
 	}
 }
