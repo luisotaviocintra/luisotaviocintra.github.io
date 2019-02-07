@@ -101,11 +101,11 @@ fieldset {
 
 /* Versão Celular */
 
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 380px) {
 	
 	#contact {
 		margin: 15px;
-		width: 90%;
+		width: 94%;
 	}
 	
 	#contact h4 {
