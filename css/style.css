@@ -1,0 +1,141 @@
+body {
+	background-image: url("https://uploaddeimagens.com.br/images/001/506/117/original/fundo.jpg?1531415252");
+}
+
+#imagem {
+	display: block;
+	padding: 20px;
+	margin: auto;
+	width: 60%;
+}
+
+#contact {
+	background:#FFFFFF;
+	margin: 20px 30%;
+}
+
+#contact h4 {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	margin:3px 14px 15px;
+	display:block;
+	font-size:13px;
+}
+
+fieldset {
+	border: medium none !important;
+	width: 95%;
+}
+
+#contact input[type="nome"], #contact input[type="email"], #contact input[type="codigo"], #contact input[type="cidade"] {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	padding: 8px;
+}
+
+#contact button[type="submit"] {
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 80px;
+	border: none;
+}
+
+
+#contact button[id="contact-submit"] {
+	background-image: url("https://uploaddeimagens.com.br/images/001/827/645/original/balao-joy-latex-liso-9-polegada-roxa.jpg?1547211248");
+}
+
+#contact button[id="contact-submit2"] {
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url("https://uploaddeimagens.com.br/images/001/827/647/original/balao-joy-latex-liso-9-polegada-amarelo.jpg?1547211313");
+}
+
+#contact button[id="contact-submit3"] {
+	background-image: url("https://uploaddeimagens.com.br/images/001/827/648/original/balao-joy-latex-liso-9-polegada-vermelha.jpg?1547211347");
+}
+
+#contact button[id="contact-submit4"] {
+	background-image: url("https://uploaddeimagens.com.br/images/001/827/651/original/balao-joy-latex-liso-9-polegada-verde.jpg?1547211384");
+}
+
+#contact button[id="contact-submit5"] {
+	background-image: url("https://uploaddeimagens.com.br/images/001/827/652/original/balao-joy-latex-liso-9-polegada-azul.jpg?1547211407");
+}
+
+#contact button[id="contact-submit6"] {
+	background-image: url("https://uploaddeimagens.com.br/images/001/827/654/original/balao-joy-latex-liso-9-polegada-laranja.jpg?1547211433");
+}
+
+
+/* Quando passa o mouse nas opções */
+#contact button[id="contact-submit"]:hover {
+	background-image: url("https://uploaddeimagens.com.br/images/001/827/656/original/balao-joy-latex-liso-9-polegada-roxa-select.jpg?1547211560");
+}
+
+#contact button[id="contact-submit2"]:hover {
+	background-image: url("https://uploaddeimagens.com.br/images/001/827/657/original/balao-joy-latex-liso-9-polegada-amarelo-select.jpg?1547211590");
+}
+
+#contact button[id="contact-submit3"]:hover {
+	background-image: url("https://uploaddeimagens.com.br/images/001/827/659/original/balao-joy-latex-liso-9-polegada-vermelha-select.jpg?1547211615");
+}
+
+#contact button[id="contact-submit4"]:hover {
+	background-image: url("https://uploaddeimagens.com.br/images/001/827/662/original/balao-joy-latex-liso-9-polegada-verde-select.jpg?1547211636");
+}
+
+#contact button[id="contact-submit5"]:hover {
+	background-image: url("https://uploaddeimagens.com.br/images/001/827/663/original/balao-joy-latex-liso-9-polegada-azul-select.jpg?1547211659");
+}
+
+#contact button[id="contact-submit6"]:hover {
+	background-image: url("https://uploaddeimagens.com.br/images/001/827/664/original/balao-joy-latex-liso-9-polegada-laranja-select.jpg?1547211682");
+}
+
+
+/* Versão Celular */
+
+@media only screen and (min-width: 800px) and (max-width: 1024px) {
+	
+	#contact {
+		margin: 15px;
+		width:100%;
+	}
+	
+	#contact h4 {
+		font-size:15px;
+	}
+	fieldset{
+		width: 80%;
+	}	
+	
+	#contact button[type="submit"] {
+		padding: 30px;
+	}
+}
+
+
+@media only screen and (max-width: 800px) {
+	
+	body {
+		height: 820px;
+	}
+	
+	#contact {
+		margin: 0;
+		width: 100%;
+	}
+	
+	#contact h4 {
+		font-size:15px;
+	}
+	fieldset{
+		width: 90%;
+	}
+	
+	#contact button[type="submit"] {
+		margin: 10px;
+		padding: 50px;
+	}
+}
