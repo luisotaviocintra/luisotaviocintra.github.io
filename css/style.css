@@ -27,7 +27,7 @@ fieldset {
 }
 
 #contact input[type="nome"], #contact input[type="email"], #contact input[type="codigo"], #contact input[type="cidade"] {
-	width:100%;
+	width: 100%;
 	border:1px solid #CCC;
 	background:#FFF;
 	padding: 8px;
@@ -123,24 +123,27 @@ fieldset {
 
 @media only screen and (min-width: 900px) and (max-width: 1024px) {
 	
-	body {
-		height: 820px;
-	}
-	
 	#contact {
 		margin: 0;
 		width: 100%;
 	}
 	
 	#contact h4 {
-		font-size:15px;
+		margin: 20px;
+		font-size:25px;
 	}
+	
 	fieldset{
 		width: 90%;
 	}
 	
 	#contact button[type="submit"] {
-		margin: 10px;
-		padding: 70px;
+		margin: 10px 50px;
+		padding: 80px;
+	}
+	
+	#contact input[type="nome"], #contact input[type="email"], #contact input[type="codigo"], #contact input[type="cidade"] {
+		font-size: 24;
+		padding: 20px;
 	}
 }
