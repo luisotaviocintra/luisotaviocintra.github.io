@@ -96,26 +96,6 @@ fieldset {
 
 /* Versão Celular */
 
-@media only screen and (max-width: 1024px) {
-	
-	#contact {
-		margin: 15px;
-		width:100%;
-	}
-	
-	#contact h4 {
-		font-size:15px;
-	}
-	fieldset{
-		width: 80%;
-	}	
-	
-	#contact button[type="submit"] {
-		padding: 30px;
-	}
-}
-
-
 @media only screen and (max-width: 900px) {
 	
 	body {
