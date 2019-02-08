@@ -129,7 +129,7 @@ fieldset {
 	}
 	
 	#contact h4 {
-		margin: 20px;
+		margin: 20px 40px;
 		font-size:25px;
 	}
 	
@@ -143,6 +143,7 @@ fieldset {
 	}
 	
 	#contact input[type="nome"], #contact input[type="email"], #contact input[type="codigo"], #contact input[type="cidade"] {
+		margin: 0px 25px;
 		font-size: 24;
 		padding: 20px;
 	}
